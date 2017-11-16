@@ -91,6 +91,12 @@ h4 {
 	border-radius: 10px 10px 0 0;
 }
 
+#windowTop h1 {
+	padding: 1.3vh 5vw;
+	line-height: 5vh;
+	text-align: center;
+}
+
 #window {
 	z-index: 10;
 	border-radius: 0 0 10px 10px;
