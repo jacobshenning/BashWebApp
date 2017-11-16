@@ -15,7 +15,7 @@
     <meta name='keywords' content=''>
 
     <!-- Stylesheets -->
-    <link rel='stylesheet' href='resume.css'>
+    <link rel='stylesheet' href='assets/resume.css'>
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:500" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. -->
@@ -41,6 +41,6 @@
 			</div>
 		</div>
 	</div>
-	<script type='text/javascript' src="js/resume.js"></script>
+	<script type='text/javascript' src="assets/resume.js"></script>
 </body>
 </html>
