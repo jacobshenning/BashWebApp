@@ -23,16 +23,51 @@ Because often times, its the *journey* that makes an experience, and not just th
 
 ### How to Use
 
+If you want to go ahead and get started with a console applications of your own, go ahead and [fork](https://help.github.com/articles/fork-a-repo/) this one! 
 
+**Local Environment Setup**
+
+Want to set this up locally on your own computer?
+
+1. First, download the ZIP file from [this repository](https://github.com/jacobshenning/console) or your own repository you've forked.
+2. Open the project folder in your [favorite text-editor](https://atom.io/)
+3. Finally, open the [docs/index.html](https://github.com/jacobshenning/console/blob/master/docs/index.html) file in your browser.
+
+Now you can make changes to the project in your text-editor, and see the changes in your browser after refreshing the page!
+
+**GitHub Pages Setup**
+
+Want to set up a free website hosted on GitHub pages?
+
+1. First, [fork](https://help.github.com/articles/fork-a-repo/) [this repository](https://github.com/jacobshenning/console)
+2. Next, go to your settings page, and scroll down until you see **GitHub Pages**. 
+3. Enable GitHub Pages, and select the *docs/* folder as your source.
+
+That's it! You should see the link to your new web page appear below the **GitHub Pages** title.
+
+**Alternative Hosting Options**
+
+Need help with another type of hosting? Just ask! jacobshenning@gmail.com
 
 ### Get Involved
 
+There is room for all types of talent and skill levels on the console development team, including yours! Want to help develop the console web application? Here is how!
 
+1. Make sure you can follow the [Code of Conduct](https://github.com/jacobshenning/console/blob/master/CODE_OF_CONDUCT.md). In short, we just want to ensure that everyone is treated with respect.
+2. Checkout our [Road Map](#road-map) to see what parts you'd like to get most involved with.
+3. Contact jacobshenning@gmail.com to become a contributor.
 
 ### Potential Applications
 
+What can you use a console application for?
 
+* Personal Resume
+* Online Game
+* Teaching
+* Business Website
+
+To name a few, but we've barely scratched the surface here. Show us what you can do with the console!
 
 ### Road Map
 
-
+Creating awesome content is cool in all, but it is a bit tricky when the team of collaborators isn't on the same page. For that reason, we've created *road map* of sorts to help us maintain a consistant focus as a team. You can find our next goals and updates [here](#)
