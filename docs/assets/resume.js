@@ -184,7 +184,7 @@ function readFile(dir) {
 		  	xhttp.onreadystatechange = function() {
 			    if (this.readyState == 4 && this.status == 200) {
 					var responseTextArray = this.responseText.split( /\n/g);
-					createSection("<br>");
+					createSection("<br><br>======== " + tempArray["url"] + "file begin ========<br>");
 					for (var i = 0; i < responseTextArray.length; i++) {
 						console.log(responseTextArray[i].substring(0, 3));
 						if (responseTextArray[i].substring(0, 3) == "###") {
@@ -197,6 +197,7 @@ function readFile(dir) {
 							createSection("<br><span>" + responseTextArray[i] + "</span>");
 						}
 					}
+					createSection("<br>======== " + tempArray["url"] + "file end ========<br><br>");
 			    }
 		  	};
 		xhttp.open("GET", ajaxURL, true);
