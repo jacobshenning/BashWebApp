@@ -339,8 +339,7 @@ function enterKey() {
 			case 'cat':
 				cat();
 				break;
-			case '--help':
-			case '-h':
+			case 'help':
 				help();
 				break;
 			default:
