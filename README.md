@@ -8,7 +8,7 @@ Its simple really, the console application is an application designed to emulate
 
 Because often times, its the *journey* that makes an experience, and not just the destination. By creating an application which requires the user to navigate via **old school bash commands**, we're creating a journey that will leave a solid impression in the users day.
 
-### Contents
+### Contents :notebook_with_decorative_cover:
 
 [Introduction](#what-is-the-console-application-thinking)
 
@@ -21,7 +21,7 @@ Because often times, its the *journey* that makes an experience, and not just th
 [Road Map](#road-map)
 
 
-### How to Use
+### How to Use :gear:
 
 If you want to go ahead and get started with a console applications of your own, go ahead and [fork](https://help.github.com/articles/fork-a-repo/) this one! 
 
@@ -49,15 +49,15 @@ That's it! You should see the link to your new web page appear below the **GitHu
 
 Need help with another type of hosting? Just ask! jacobshenning@gmail.com
 
-### Get Involved
+### Get Involved :raised_hands:
 
 There is room for all types of talent and skill levels on the console development team, including yours! Want to help develop the console web application? Here is how!
 
-1. Make sure you can follow the [Code of Conduct](https://github.com/jacobshenning/console/blob/master/CODE_OF_CONDUCT.md). In short, we just want to ensure that everyone is treated with respect.
+1. Make sure you can follow the [Code of Conduct](https://github.com/jacobshenning/console/blob/master/CODE_OF_CONDUCT.md).
 2. Checkout our [Road Map](#road-map) to see what parts you'd like to get most involved with.
 3. Contact jacobshenning@gmail.com to become a contributor.
 
-### Potential Applications
+### Potential Applications :bulb:
 
 What can you use a console application for?
 
@@ -68,6 +68,6 @@ What can you use a console application for?
 
 To name a few, but we've barely scratched the surface here. Show us what you can do with the console!
 
-### Road Map
+### Road Map :newspaper:
 
 Creating awesome content is cool in all, but it is a bit tricky when the team of collaborators isn't on the same page. For that reason, we've created *road map* of sorts to help us maintain a consistant focus as a team. You can find our next goals and updates [here](#)
