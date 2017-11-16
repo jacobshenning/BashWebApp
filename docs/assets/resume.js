@@ -184,20 +184,22 @@ function readFile(dir) {
 		  	xhttp.onreadystatechange = function() {
 			    if (this.readyState == 4 && this.status == 200) {
 					var responseTextArray = this.responseText.split( /\n/g);
-					createSection("<br><br>======== " + tempArray["url"] + " file begin ========<br>");
+					createSection("<br><br>");
+					var space = "&nbsp;";
+					var gap = space.repeat(4) + "|";
 					for (var i = 0; i < responseTextArray.length; i++) {
 						console.log(responseTextArray[i].substring(0, 3));
 						if (responseTextArray[i].substring(0, 3) == "###") {
-							createSection("<br><h6>" + responseTextArray[i].substring(3) + "</h6>");
+							createSection("<br><h6>" + gap + responseTextArray[i].substring(3) + "</h6>");
 						} else if (responseTextArray[i].substring(0, 2) == "##") {
-							createSection("<br><h5>" + responseTextArray[i].substring(2) + "</h5>");
+							createSection("<br><h5>" + gap + space.repeat(2) + responseTextArray[i].substring(2) + "</h5>");
 						} else if (responseTextArray[i].substring(0, 1) == "#") {
-							createSection("<br><h4>" + responseTextArray[i].substring(1) + "</h4>");
+							createSection("<br><h4>" + gap + space.repeat(4) + responseTextArray[i].substring(1) + "</h4>");
 						} else {
-							createSection("<br><span>" + responseTextArray[i] + "</span>");
+							createSection("<br><span>" + gap + space.repeat(6) + responseTextArray[i] + "</span>");
 						}
 					}
-					createSection("<br>======== " + tempArray["url"] + " file end ========<br><br>");
+					createSection("<br><br>");
 			    }
 		  	};
 		xhttp.open("GET", ajaxURL, true);
