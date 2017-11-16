@@ -64,20 +64,20 @@ h3 {
 }
 
 h4 {
-	font-size:20px !important;
-	line-height: 22px !important;
-	margin:0;
-}
-
-h5 {
-	font-size:18px !important;
+	font-size:19px !important;
 	line-height: 20px !important;
 	margin:0;
 }
 
-h6 {
+h5 {
 	font-size:16px !important;
 	line-height: 18px !important;
+	margin:0;
+}
+
+h6 {
+	font-size:15px !important;
+	line-height: 17px !important;
 	margin:0;
 }
 

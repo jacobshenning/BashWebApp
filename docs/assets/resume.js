@@ -191,7 +191,7 @@ function readFile(dir) {
 							createSection("<br><h6>" + responseTextArray[i].substring(3) + "</h6>");
 						} else if (responseTextArray[i].substring(0, 2) == "##") {
 							createSection("<br><h5>" + responseTextArray[i].substring(2) + "</h5>");
-						} if (responseTextArray[i].substring(0, 1) == "#") {
+						} else if (responseTextArray[i].substring(0, 1) == "#") {
 							createSection("<br><h4>" + responseTextArray[i].substring(1) + "</h4>");
 						} else {
 							createSection("<br><span>" + responseTextArray[i] + "</span>");
