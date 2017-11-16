@@ -4,7 +4,7 @@
 
 var bashSystem = {
 	"root": {
-		"welcome.md" 	:	{"url":"test"},
+		"welcome.md" 	:	{"url":"welcome.md"},
 		"README.md"		:	{"url":"test"},
 		"help.md"		:	{"url":"help.md"},
 		"applications"	:	{
