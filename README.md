@@ -6,8 +6,19 @@ Its simple really, the console application is an application designed to emulate
 
 ***But why?***
 
-Because often times, its the *journey* that defines an experience, and not just the destination. By creating an application which requires the user to navigate via **old school bash commands**, we're creating a journey that will leave a solid impression in the users day.
+Because often times, its the *journey* that makes an experience, and not just the destination. By creating an application which requires the user to navigate via **old school bash commands**, we're creating a journey that will leave a solid impression in the users day.
 
 ### Contents
 
-[introduction]
+[introduction](https://github.com/jacobshenning/console/blob/master/README.md#what-is-the-console-application-thinking)
+
+[How to Use](#)
+
+[Get Involved](#)
+
+[Potential Applications](#)
+
+[Road Map](#)
+
+
+
