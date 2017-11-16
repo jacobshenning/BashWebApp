@@ -5,7 +5,6 @@
 var bashSystem = {
 	"root": {
 		"welcome.md" 	:	{"url":"welcome.md"},
-		"README.md"		:	{"url":"test"},
 		"help.md"		:	{"url":"help.md"},
 		"applications"	:	{
 			"anagram.sh"	: {}
@@ -187,7 +186,7 @@ function readFile(dir) {
 			      	createSection(this.responseText);
 			    }
 		  	};
-		xhttp.open("GET", tempArray['url'], true);
+		xhttp.open("GET", "content/" + tempArray['url'], true);
 		xhttp.send();
 		/*
 		for(var key in tempArray) {
