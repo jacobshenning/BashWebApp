@@ -13,6 +13,7 @@ body {
 	color:#ccc;
 	font-size:14px !important;
 	line-height: 16px !important;
+	overflow: hidden;
 }
 
 br {
