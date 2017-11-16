@@ -8,7 +8,7 @@ Its simple really, the bash application is an application designed to emulate a 
 
 Because often times, its the *journey* that makes an experience, and not just the destination. By creating an application which requires the user to navigate via **old school bash commands**, we're creating a journey that will leave a solid impression in the users day.
 
-![Image of Yaktocat](/img/yaktocat.png)
+![Demo Image](/img/demo01.png)
 
 ### Contents :notebook_with_decorative_cover:
 
