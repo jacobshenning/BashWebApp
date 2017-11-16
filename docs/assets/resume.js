@@ -190,13 +190,13 @@ function readFile(dir) {
 					for (var i = 0; i < responseTextArray.length; i++) {
 						console.log(responseTextArray[i].substring(0, 3));
 						if (responseTextArray[i].substring(0, 3) == "###") {
-							createSection("<br><h6>" + gap + responseTextArray[i].substring(3) + "</h6>");
+							createSection("<br>" + gap + "<h6>" + responseTextArray[i].substring(3) + "</h6>");
 						} else if (responseTextArray[i].substring(0, 2) == "##") {
-							createSection("<br><h5>" + gap + space.repeat(2) + responseTextArray[i].substring(2) + "</h5>");
+							createSection("<br>" + gap + space.repeat(2) + "<h5>" + responseTextArray[i].substring(2) + "</h5>");
 						} else if (responseTextArray[i].substring(0, 1) == "#") {
-							createSection("<br><h4>" + gap + space.repeat(4) + responseTextArray[i].substring(1) + "</h4>");
+							createSection("<br>" + gap + space.repeat(4) + "<h4>" + responseTextArray[i].substring(1) + "</h4>");
 						} else {
-							createSection("<br><span>" + gap + space.repeat(6) + responseTextArray[i] + "</span>");
+							createSection("<br>" + gap + space.repeat(6) + "<span>" + responseTextArray[i] + "</span>");
 						}
 					}
 					createSection("<br><br>");
