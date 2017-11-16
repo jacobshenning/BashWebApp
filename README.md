@@ -8,6 +8,8 @@ Its simple really, the bash application is an application designed to emulate a 
 
 Because often times, its the *journey* that makes an experience, and not just the destination. By creating an application which requires the user to navigate via **old school bash commands**, we're creating a journey that will leave a solid impression in the users day.
 
+![Image of Yaktocat](/img/yaktocat.png)
+
 ### Contents :notebook_with_decorative_cover:
 
 [Introduction](#what-is-the-console-application-thinking)
@@ -23,7 +25,7 @@ Because often times, its the *journey* that makes an experience, and not just th
 
 ### How to Use :gear:
 
-If you want to go ahead and get started with a console applications of your own, go ahead and [fork](https://help.github.com/articles/fork-a-repo/) this one! 
+If you want to go ahead and get started with a console applications of your own, go ahead and [fork](https://help.github.com/articles/fork-a-repo/) this one!
 
 **Local Environment Setup**
 
@@ -40,7 +42,7 @@ Now you can make changes to the project in your text-editor, and see the changes
 Want to set up a free website hosted on GitHub pages?
 
 1. First, [fork](https://help.github.com/articles/fork-a-repo/) [this repository](https://github.com/jacobshenning/console)
-2. Next, go to your settings page, and scroll down until you see **GitHub Pages**. 
+2. Next, go to your settings page, and scroll down until you see **GitHub Pages**.
 3. Enable GitHub Pages, and select the *docs/* folder as your source.
 
 That's it! You should see the link to your new web page appear below the **GitHub Pages** title.
