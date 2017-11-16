@@ -179,14 +179,15 @@ function readFile(dir) {
 				}
 			}
 		}
-		console.log(tempArray["url"]);
+		var ajaxURL = "content/" + tempArray["url"];
 		var xhttp = new XMLHttpRequest();
 		  	xhttp.onreadystatechange = function() {
 			    if (this.readyState == 4 && this.status == 200) {
+					console.log(this.responseText);
 			      	createSection(this.responseText);
 			    }
 		  	};
-		xhttp.open("GET", "content/" + tempArray['url'], true);
+		xhttp.open("GET", ajaxURL, true);
 		xhttp.send();
 		/*
 		for(var key in tempArray) {
@@ -254,7 +255,7 @@ function help() {
 
 function cat(dir) {
 	if (dir) {
-		createSection(readFile(dir));
+		readFile(dir);
 	} else {
 		createSection("<br>-bash: " + "cat" + ": Invalid, no argument found. Enter '--help' for assistance.");
 	}
