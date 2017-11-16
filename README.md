@@ -16,7 +16,7 @@
 
     <!-- Stylesheets -->
     <link rel='stylesheet' href='resume.css'>
-	  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:500" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. -->
     <!--[if lt IE 9]>
@@ -27,10 +27,12 @@
 
 <body id="resume" tabindex="0">
 	<div id='windowContainer'>
-		<div id="windowTop"></div>
+		<div id="windowTop">
+            <h1> Jacob Henning's Bash </h1>
+        </div>
 		<div id="window">
 			<div id="resume-container">
-				<h1>Jacob Henning's Bash: ~</h1>
+				<i>Welcome to my bash emulator, enter 'help' for needed assistance.</i><br><br>
 				<div id="visible-sections"></div>
 				<div id="command-line">
 					<span>~<span> </span> $</span>
