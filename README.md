@@ -12,13 +12,13 @@ Because often times, its the *journey* that makes an experience, and not just th
 
 [Introduction](#what-is-the-console-application-thinking)
 
-[How to Use](#how-to-use)
+[How to Use](#how-to-use-gear)
 
-[Get Involved](#get-involved)
+[Get Involved](#get-involved-raised_hands)
 
-[Potential Applications](#potential-applications)
+[Potential Applications](#potential-applications-bulb)
 
-[Road Map](#road-map)
+[Road Map](#road-map-newspaper)
 
 
 ### How to Use :gear:
