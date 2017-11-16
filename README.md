@@ -10,15 +10,15 @@ Because often times, its the *journey* that makes an experience, and not just th
 
 ### Contents
 
-[Introduction](https://github.com/jacobshenning/console/blob/master/README.md#what-is-the-console-application-thinking)
+[Introduction](#what-is-the-console-application-thinking)
 
-[How to Use](#)
+[How to Use](#how-to-use)
 
-[Get Involved](#)
+[Get Involved](#get-involved)
 
-[Potential Applications](#)
+[Potential Applications](#potential-applications)
 
-[Road Map](#)
+[Road Map](#road-map)
 
 
 ### How to Use
