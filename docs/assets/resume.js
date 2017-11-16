@@ -183,7 +183,14 @@ function readFile(dir) {
 		var xhttp = new XMLHttpRequest();
 		  	xhttp.onreadystatechange = function() {
 			    if (this.readyState == 4 && this.status == 200) {
-			      	createSection(this.responseText);
+					var responseTextArray = this.responseText.split( /\n/g);
+					for (var i = 0; i < responseTextArray.length; i++) {
+						if (responseTextArray[i].substring(0, 3); == "###") {
+							createSection("<br><h2>" responseTextArray[i] "</h2>");
+						} else {
+							createSection("<br><span>" responseTextArray[i] "</span>");
+						}
+					}
 			    }
 		  	};
 		xhttp.open("GET", ajaxURL, true);
@@ -387,7 +394,6 @@ function appendSection(section) {
 }
 
 function createSection(content) {
-	console.log(content);
 	var newContent = document.createElement('div');
 	newContent.innerHTML = content;
 
