@@ -183,7 +183,6 @@ function readFile(dir) {
 		var xhttp = new XMLHttpRequest();
 		  	xhttp.onreadystatechange = function() {
 			    if (this.readyState == 4 && this.status == 200) {
-					console.log(this.responseText);
 			      	createSection(this.responseText);
 			    }
 		  	};
@@ -388,6 +387,7 @@ function appendSection(section) {
 }
 
 function createSection(content) {
+	console.log(content);
 	var newContent = document.createElement('div');
 	newContent.innerHTML = content;
 
