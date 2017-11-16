@@ -2,7 +2,7 @@
 
 ## What is the console application? :thinking:
 
-Its simple really, the console application is an application designed to emulate the console in your browser.
+Its simple really, the bash application is an application designed to emulate a bash console in your browser. The bash console is similar to command prompt on windows, identical to the mac terminal, which runs bash by default.
 
 ***But why?***
 
