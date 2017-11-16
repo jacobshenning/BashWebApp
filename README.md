@@ -10,7 +10,7 @@ Because often times, its the *journey* that makes an experience, and not just th
 
 ### Contents
 
-[introduction](https://github.com/jacobshenning/console/blob/master/README.md#what-is-the-console-application-thinking)
+[Introduction](https://github.com/jacobshenning/console/blob/master/README.md#what-is-the-console-application-thinking)
 
 [How to Use](#)
 
@@ -20,5 +20,19 @@ Because often times, its the *journey* that makes an experience, and not just th
 
 [Road Map](#)
 
+
+### How to Use
+
+
+
+### Get Involved
+
+
+
+### Potential Applications
+
+
+
+### Road Map
 
 
