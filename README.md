@@ -1,46 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <!-- Meta Data -->
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+# :tada: Console Application :tada:
 
-    <!-- Branding -->
-    <title> Jacob Henning </title>
-    <link rel='shortcut icon' href='favicon.png'/>
+## What is the console application? :thinking:
 
-    <!-- SEO -->
-    <meta name='description' content=''>
-    <meta name='keywords' content=''>
+Its simple really, the console application is an application designed to emulate the console in your browser.
 
-    <!-- Stylesheets -->
-    <link rel='stylesheet' href='resume.css'>
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:500" rel="stylesheet">
+***But why?***
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. -->
-    <!--[if lt IE 9]>
-        <script src='js/html5shiv.js'></script>
-        <script src='js/respond.min.js'></script>
-    <![endif]-->
-</head>
+Because often times, its the *journey* that defines an experience, and not just the destination. By creating an application which requires the user to navigate via **old school bash commands**, we're creating a journey that will leave a solid impression in the users day.
 
-<body id="resume" tabindex="0">
-	<div id='windowContainer'>
-		<div id="windowTop">
-            <h1> Jacob Henning's Bash </h1>
-        </div>
-		<div id="window">
-			<div id="resume-container">
-				<i>Welcome to my bash emulator, enter 'help' for needed assistance.</i><br><br>
-				<div id="visible-sections"></div>
-				<div id="command-line">
-					<span>~<span> </span> $</span>
-					<div class="commands"><b></b></div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<script type='text/javascript' src="js/resume.js"></script>
-</body>
-</html>
+### Contents
+
+[introduction]
