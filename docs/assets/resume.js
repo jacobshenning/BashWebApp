@@ -184,9 +184,14 @@ function readFile(dir) {
 		  	xhttp.onreadystatechange = function() {
 			    if (this.readyState == 4 && this.status == 200) {
 					var responseTextArray = this.responseText.split( /\n/g);
+					createSection("<br>");
 					for (var i = 0; i < responseTextArray.length; i++) {
 						if (responseTextArray[i].substring(0, 3) == "###") {
-							createSection("<br><h2>" + responseTextArray[i] + "</h2>");
+							createSection("<br><h4>" + responseTextArray[i].substring(3) + "</h4>");
+						} else if (responseTextArray[i].substring(0, 2) == "##") {
+							createSection("<br><h3>" + responseTextArray[i].substring(2) + "</h3>");
+						} if (responseTextArray[i].substring(0, 1) == "#") {
+							createSection("<br><h2>" + responseTextArray[i].substring(1) + "</h2>");
 						} else {
 							createSection("<br><span>" + responseTextArray[i] + "</span>");
 						}
