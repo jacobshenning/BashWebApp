@@ -188,7 +188,6 @@ function readFile(dir) {
 					var space = "&nbsp;";
 					var gap = space.repeat(4) + "|";
 					for (var i = 0; i < responseTextArray.length; i++) {
-						console.log(responseTextArray[i].substring(0, 3));
 						if (responseTextArray[i].substring(0, 3) == "###") {
 							createSection("<br>" + gap + "<h6>" + responseTextArray[i].substring(3) + "</h6>");
 						} else if (responseTextArray[i].substring(0, 2) == "##") {
