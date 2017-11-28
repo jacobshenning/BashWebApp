@@ -6,22 +6,22 @@ The Bash Web App is an online shell based on the Bash Unix Shell, and focuses mo
 
 This project adheres to the [Code of Conduct](https://github.com/jacobshenning/BashWebApp/blob/master/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. 
 
-### Usage
+### Usage :gear:
 
 This project should be used for online websites that are designed to have a unique UX.
 
-### Documentation
+### Documentation :book:
 
 The documentation is a work in progress, if you'd like to help create the documentation, please visit the [Contributing Guidelines](https://github.com/jacobshenning/BashWebApp/blob/master/CODE_OF_CONDUCT.md) page.
 
-### Contributing
+### Contributing :rocket:
 
 For more on contributing, visit the [Contributing Guidelines](https://github.com/jacobshenning/BashWebApp/blob/master/CODE_OF_CONDUCT.md) page.
 
-### Credits
+### Credits :coffee:
 
 Credits will be update after 0.1.0 release.
 
-### License
+### License :file_folder:
 
 MIT License
