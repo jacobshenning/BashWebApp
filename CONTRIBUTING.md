@@ -10,7 +10,7 @@ While this is a pretty easy going repository, everyone who participates is requi
 
 ### Style Guide
 
-Our current style guide for comments, issues, and communication in general is pretty non-specific. This of course,  will change overtime. For now, just use your best judgement and rely on the [README](https://github.com/jacobshenning/console/blob/master/README.md)
+Our current style guide for comments, issues, and communication in general is pretty non-specific. This will change overtime as people like you get more involved. Until these things are update, use your best judgement and adhere to the [Code of Conduct](https://github.com/jacobshenning/console/blob/master/CODE_OF_CONDUCT.md)
 
 ### Helpful Links
 
