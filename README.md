@@ -12,11 +12,11 @@ This project should be used for online websites that are designed to have a uniq
 
 ### Documentation :book:
 
-The documentation is a work in progress, if you'd like to help create the documentation, please visit the [Contributing Guidelines](https://github.com/jacobshenning/BashWebApp/blob/master/CODE_OF_CONDUCT.md) page.
+The documentation is a work in progress, if you'd like to help create the documentation, please visit the [Contributing Guidelines](https://github.com/jacobshenning/BashWebApp/blob/master/CONTRIBUTING.md) page.
 
 ### Contributing :rocket:
 
-For more on contributing, visit the [Contributing Guidelines](https://github.com/jacobshenning/BashWebApp/blob/master/CODE_OF_CONDUCT.md) page.
+For more on contributing, visit the [Contributing Guidelines](https://github.com/jacobshenning/BashWebApp/blob/master/CONTRIBUTING.md) page.
 
 ### Credits :coffee:
 
