@@ -2,13 +2,7 @@
 
 ## What is the Bash Web App? :thinking:
 
-The Bash Web App is an easy to learn online shell that anyone can pickup and use. If you're not sure what a shell is, read our [What is Shell page](/page) to get a quick understanding of the shell and how it works. 
-
-***But why?***
-
-Because often times, its the *journey* that makes an experience, and not just the destination. By creating an application which requires the user to navigate via **old school bash commands**, we're creating a journey that will leave a solid impression in the users day.
-
-![Demo Image](/img/demo02.png)
+The Bash Web App is an easy to learn online shell that anyone can pickup and use. If you're not sure what a shell is, read our section [What is Shell](/what-is-shell) to get a quick understanding of the shell and how it works! If you want to learn more about the project, scroll through our table of contents below!
 
 ### Contents :notebook_with_decorative_cover:
 
