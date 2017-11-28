@@ -1,8 +1,8 @@
-# :tada: Console Application :tada:
+# :tada: Bash Web App :tada:
 
-## What is the console application? :thinking:
+## What is the Bash Web App? :thinking:
 
-Its simple really, the bash application is an application designed to emulate a bash console in your browser. The bash console is similar to command prompt on windows, identical to the mac terminal, which runs bash by default.
+The Bash Web App is an easy to learn online shell that anyone can pickup and use. If you're not sure what a shell is, read our [What is Shell? page](/page) to get a quick understanding of the shell and how it works. 
 
 ***But why?***
 
