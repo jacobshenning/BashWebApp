@@ -1,3 +1,3 @@
-# This Should Not Effect the Website
+# Temporary
 
-## README.md test to see if HTML file remains dominant
+This project is temporarily being hosted in the docs. The project will soon be rearranged, including project hosting and documentation within the docs file.
