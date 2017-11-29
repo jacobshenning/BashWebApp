@@ -1,0 +1,29 @@
+#
+# This file contains configuration flags to customize your site
+#
+
+# Name of your site (displayed in the header)
+name: Bash Web App
+
+# Short bio or description (displayed in the header)
+description: An Online Shell that's fun
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+
+# Social Media Icons in the Footer
+footer-links    :
+  dribbble      :
+  email         :
+  facebook      :
+  flickr        :
+  github        :
+  instagram     :
+  linkedin      :
+  pinterest     :
+  rss           : # Type anything here for a working RSS icon
+  twitter       :
+  stackoverflow : 
+  youtube       : # Channel/<your_long_string> or user/<user-name>
+  googleplus    : # Anything in your profile username that comes after plus.google.com/
