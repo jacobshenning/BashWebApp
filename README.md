@@ -1,75 +1,27 @@
-# :tada: Console Application :tada:
+# :tada: Bash Web App :tada:
 
-## What is the console application? :thinking:
+## What is the Bash Web App? :thinking:
 
-Its simple really, the bash application is an application designed to emulate a bash console in your browser. The bash console is similar to command prompt on windows, identical to the mac terminal, which runs bash by default.
+The Bash Web App is an online shell based on the Bash Unix Shell, and focuses more on the UX journey, rather than just the destination. This project is designed to create unique UX experiences for specific markets or presentations.
 
-***But why?***
+This project adheres to the [Code of Conduct](https://github.com/jacobshenning/BashWebApp/blob/master/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. 
 
-Because often times, its the *journey* that makes an experience, and not just the destination. By creating an application which requires the user to navigate via **old school bash commands**, we're creating a journey that will leave a solid impression in the users day.
+### Usage :gear:
 
-![Demo Image](/img/demo02.png)
+This project should be used for online websites that are designed to have a unique UX.
 
-### Contents :notebook_with_decorative_cover:
+### Documentation :book:
 
-[Introduction](#what-is-the-console-application-thinking)
+The documentation is a work in progress, if you'd like to help create the documentation, please visit the [Contributing Guidelines](https://github.com/jacobshenning/BashWebApp/blob/master/CONTRIBUTING.md) page.
 
-[How to Use](#how-to-use-gear)
+### Contributing :rocket:
 
-[Get Involved](#get-involved-raised_hands)
+For more on contributing, visit the [Contributing Guidelines](https://github.com/jacobshenning/BashWebApp/blob/master/CONTRIBUTING.md) page.
 
-[Potential Applications](#potential-applications-bulb)
+### Credits :coffee:
 
-[Road Map](#road-map-newspaper)
+Credits will be update after 0.1.0 release.
 
+### License :file_folder:
 
-### How to Use :gear:
-
-If you want to go ahead and get started with a console applications of your own, go ahead and [fork](https://help.github.com/articles/fork-a-repo/) this one!
-
-**Local Environment Setup**
-
-Want to set this up locally on your own computer?
-
-1. First, download the ZIP file from [this repository](https://github.com/jacobshenning/console) or your own repository you've forked.
-2. Open the project folder in your [favorite text-editor](https://atom.io/)
-3. Finally, open the [docs/index.html](https://github.com/jacobshenning/console/blob/master/docs/index.html) file in your browser.
-
-Now you can make changes to the project in your text-editor, and see the changes in your browser after refreshing the page!
-
-**GitHub Pages Setup**
-
-Want to set up a free website hosted on GitHub pages?
-
-1. First, [fork](https://help.github.com/articles/fork-a-repo/) [this repository](https://github.com/jacobshenning/console)
-2. Next, go to your settings page, and scroll down until you see **GitHub Pages**.
-3. Enable GitHub Pages, and select the *docs/* folder as your source.
-
-That's it! You should see the link to your new web page appear below the **GitHub Pages** title.
-
-**Alternative Hosting Options**
-
-Need help with another type of hosting? Just ask! jacobshenning@gmail.com
-
-### Get Involved :raised_hands:
-
-There is room for all types of talent and skill levels on the console development team, including yours! Want to help develop the console web application? Here is how!
-
-1. Make sure you can follow the [Code of Conduct](https://github.com/jacobshenning/console/blob/master/CODE_OF_CONDUCT.md).
-2. Checkout our [Road Map](#road-map) to see what parts you'd like to get most involved with.
-3. Contact jacobshenning@gmail.com to become a contributor.
-
-### Potential Applications :bulb:
-
-What can you use a console application for?
-
-* Personal Resume
-* Online Game
-* Teaching
-* Business Website
-
-To name a few, but we've barely scratched the surface here. Show us what you can do with the console!
-
-### Road Map :newspaper:
-
-Creating awesome content is cool in all, but it is a bit tricky when the team of collaborators isn't on the same page. For that reason, we've created *road map* of sorts to help us maintain a consistant focus as a team. You can find our next goals and updates [here](#)
+MIT License
