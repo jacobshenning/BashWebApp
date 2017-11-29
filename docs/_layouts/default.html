@@ -1,35 +1,48 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
     <head>
-        <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <title>{{ site.name }}</title>
 
-        {% include meta.html %}
-
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/pygment_trac.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/emoji.css">
+        <meta name="viewport" content="width=device-width">
         <!--[if lt IE 9]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-
-        <link href="{{ site.baseurl }}/assets/css/emoji.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-        <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     </head>
-
     <body>
+        <div class="wrapper">
+            <header>
+                <h1>{{ site.name }}</h1>
+                <p>{{ site.description }}</p>
+                <a href="#bash-web-app-documentation"> Introduction </a>
+                <br>
+                <a href="#how-to-install"> Installation </a>
+                <br>
+                <a href="#how-to-use"> Usage </a>
+            </header>
 
-        {% include header.html %}
+            <section>
+                {{ content }}
+                <div style="height: 75vh; width: 100%;">
 
-        <div id="main" role="main" class="container">
-            {{ content }}
+                </div>
+            </section>
+
+            <footer>
+                <p class="view"><a href="http://github.com/jacobshenning/BashWebApp">View the Project on GitHub <small>jacobshenning/BashWebApp</small></a></p>
+                <ul>
+                    <li><a href="https://github.com/jacobshenning/BashWebApp/zipball/master">Download <strong>ZIP File</strong></a></li>
+                    <li><a href="https://github.com/jacobshenning/BashWebApp/tarball/master">Download <strong>TAR Ball</strong></a></li>
+                    <li><a href="http://github.com/jacobshenning/BashWebApp">Fork On <strong>GitHub</strong></a></li>
+                </ul>
+            </footer>
         </div>
-
-        <div class="wrapper-footer">
-            <div class="container">
-                <footer class="footer">
-                    {% include svg-icons.html %}
-                </footer>
-            </div>
-        </div>
-
-        {% include analytics.html %}
+        <script src="{{ site.baseurl }}/assets/js/jquery.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/scale.fix.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/smooth.scroll.js"></script>
     </body>
 </html>
