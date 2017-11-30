@@ -6,7 +6,7 @@
 name: Bash Web App
 
 # Short bio or description (displayed in the header)
-description: An Online Shell that's fun
+description: A Unix Bash Shell emulator done in the form of a Web Application.
 
 # Plugins
 plugins:
