@@ -6,7 +6,7 @@
         <title>{{ site.name }}</title>
         <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicon.png">
 
-        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
         <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/pygment_trac.css">
         <meta name="viewport" content="width=device-width">
         <!--[if lt IE 9]>
@@ -14,31 +14,32 @@
         <![endif]-->
     </head>
     <body>
-        <div class="wrapper">
+        <div class="container">
             <header>
                 <h1>{{ site.name }}</h1>
                 <p>{{ site.description }}</p>
-                <a href="{{ site.baseurl }}/demo"> Online Demo </a>
             </header>
 
-            <section>
+            <nav>
+                <hr>
+                <strong> Links </strong>
+                <a href="#welcome-to-the-bash-web-app-docs"> Introduction </a>
+                <a href="#so-should-you-use-the-bash-web-app"> Why Bash Web App </a>
+                <a href="#getting-started"> Getting Started </a>
+                <a href="#getting-involved-1tada"> Getting Involved </a>
+                <hr>
+            </nav>
+
+            <aside>
+
+            </aside>
+
+            <main>
                 {{ content }}
-                <div style="height: 68vh; width: 100%;">
+            </main>
 
-                </div>
-            </section>
-
-            <footer>
-                <p class="view"><a href="http://github.com/jacobshenning/BashWebApp">View the Project on GitHub <small>jacobshenning/BashWebApp</small></a></p>
-                <ul>
-                    <li><a href="https://github.com/jacobshenning/BashWebApp/zipball/master">Download <strong>ZIP File</strong></a></li>
-                    <li><a href="https://github.com/jacobshenning/BashWebApp/tarball/master">Download <strong>TAR Ball</strong></a></li>
-                    <li><a href="http://github.com/jacobshenning/BashWebApp">Fork On <strong>GitHub</strong></a></li>
-                </ul>
-            </footer>
         </div>
         <script src="{{ site.baseurl }}/assets/js/jquery.js"></script>
-        <script src="{{ site.baseurl }}/assets/js/scale.fix.js"></script>
-        <script src="{{ site.baseurl }}/assets/js/smooth.scroll.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/script.coffee.js"></script>
     </body>
 </html>
