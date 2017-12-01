@@ -13,6 +13,9 @@ plugins:
   - jekyll-sitemap
   - jemoji
 
+sass:
+  style: compressed
+
 # Social Media Icons in the Footer
 footer-links    :
   dribbble      :

@@ -21,6 +21,7 @@ Regular Paragraph Text
 [I'm an inline-style link](https://www.google.com)
 
 ```javascript
+// Javascript Yay!
 var fun = function lang(l) {
   dateformat.i18n = require('./lang/' + l)
   return true;
@@ -28,10 +29,15 @@ var fun = function lang(l) {
 ```
 
 ```ruby
-# Ruby code with syntax highlighting
+# Ruby Yay!
 GitHubPages::Dependencies.gems.each do |gem, version|
   s.add_dependency(gem, "= #{version}")
 end
+```
+
+```ruby
+# PHP Yay!
+echo "Yay";
 ```
 
 Here are some lists:
