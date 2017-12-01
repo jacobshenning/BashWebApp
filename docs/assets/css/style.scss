@@ -222,10 +222,11 @@ main {
         }
         float: none;
         width: $break-medium - 50;
-        padding-bottom:100px;
+        padding-bottom:300px;
     }
     @media screen and (max-width: $break-medium) {
         width: auto;
+        padding-bottom:100px;
     }
 }
 /* Footer */
