@@ -40,8 +40,8 @@ Err, well, here is the thing. We too are just getting started, and so we don't h
 
 But, we do have things like
 
-- <a href="#getting-involved-1tada"> How to get involved </a>
-- <a target="_blank" href="https://github.com/jacobshenning/BashWebApp/blob/master/CONTRIBUTING.md"> Contributing Guide </a>
+- [How to get involved](#getting-involved-1tada)
+- [Contributing guide][1]
 
 and we would love for you to get onboard with use!
 
@@ -49,4 +49,8 @@ and we would love for you to get onboard with use!
 
 First off, thanks for getting getting involved with Bash Web App!
 
-We always welcome newcomers. In order to get started, make sure you agree to the <a target="_blank" href="https://github.com/jacobshenning/BashWebApp/blob/master/CODE_OF_CONDUCT.md"> Code of Conduct </a> and follow the <a target="_blank" href="https://github.com/jacobshenning/BashWebApp/blob/master/CONTRIBUTING.md"> Contributing Guide </a> in order to get off to a great start!
+We always welcome newcomers. In order to get started, make sure you agree to the [Code of Conduct][2] and follow the [Contributing Guide][1] in order to get off to a great start!
+
+
+[1]: https://github.com/jacobshenning/BashWebApp/blob/master/CONTRIBUTING.md
+[2]: https://github.com/jacobshenning/BashWebApp/blob/master/CODE_OF_CONDUCT.md

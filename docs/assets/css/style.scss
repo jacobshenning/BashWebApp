@@ -216,6 +216,7 @@ main {
     float:right;
     padding: 10px 10px;
     padding-bottom:500px;
+    padding-bottom:90vh;
     @media screen and (max-width: $break-large) {
         h1:first-child {
             text-align: center;
@@ -223,10 +224,12 @@ main {
         float: none;
         width: $break-medium - 50;
         padding-bottom:300px;
+        padding-bottom:90vh;
     }
     @media screen and (max-width: $break-medium) {
         width: auto;
         padding-bottom:100px;
+        padding-bottom:90vh;
     }
 }
 /* Footer */
