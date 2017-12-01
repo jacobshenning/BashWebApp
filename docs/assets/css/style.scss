@@ -214,14 +214,15 @@ main {
     color: $color-gray;
     width:500px;
     float:right;
-    padding-bottom:100px;
     padding: 10px 10px;
+    padding-bottom:500px;
     @media screen and (max-width: $break-large) {
         h1:first-child {
             text-align: center;
         }
         float: none;
         width: $break-medium - 50;
+        padding-bottom:100px;
     }
     @media screen and (max-width: $break-medium) {
         width: auto;

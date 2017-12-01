@@ -12,6 +12,7 @@ description: A Unix Bash Shell emulator done in the form of a Web Application.
 plugins:
   - jekyll-sitemap
   - jemoji
+  - jekyll-coffeescript
 
 sass:
   style: compressed

@@ -1,7 +1,7 @@
 ---
-layout: new
-title: New
-permalink: /new
+layout: default
+title: Styling
+permalink: /style
 ---
 
 # Heading 1
