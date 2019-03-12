@@ -3,6 +3,7 @@
 */.sass-cache/*
 */.sass-cache
 */.jekyll-metadata
+node_modules
 
 _site/*
 .sass-cache/*
